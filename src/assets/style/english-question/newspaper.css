@@ -1,0 +1,21 @@
+
+.newspaper__textarea {
+padding-top: 18px;
+}
+.newspaper__textarea textarea::placeholder {
+    padding: 0;
+    }
+.newspaper__textarea--input {
+    width: 100%;
+    border: 1px solid var(--mid-gray);
+    height: 100px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.newspaper_publication_source {
+    padding-top: 20px;
+}
+.question_text {
+    padding: 20px 0;
+}

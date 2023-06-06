@@ -1,0 +1,59 @@
+:root {
+  --coupon-gray: #989898;
+}
+.coupon-header {
+  text-align: center;
+  background-color: var(--blue);
+  padding: 20px 0;
+  color: white;
+  font-weight: bold;
+}
+.coupon-button {
+  width: 335px;
+  height: 60px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  position: relative;
+}
+.coupon-body {
+  transition: none !important;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f4e9 !important;
+  position: fixed;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+.button-top {
+  position: absolute;
+  top: -15px;
+  left: 0;
+  transform: rotateZ(180deg);
+}
+.rotate-180 {
+  transition: none !important;
+
+  transform: rotate(180deg);
+}
+.bg-gray {
+  background-color: var(--coupon-gray) !important;
+}
+.valid-image-box {
+  font-family: "Hiragino Kaku Gothic ProN", "Segoe UI", "Meiryo", "Meiryo",
+    sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 50px;
+}
+.valid-image-box span {
+  position: absolute;
+  top: 35%;
+}

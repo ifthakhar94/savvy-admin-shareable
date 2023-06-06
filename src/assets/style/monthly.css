@@ -1,0 +1,88 @@
+/* CSS for question */
+.question-title {
+  font-size: 20px !important;
+  font-weight: normal !important;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+.content-wrapper {
+  background-color: var(--light-gray);
+  padding: 5px 25px 25px;
+  width: 100%;
+  margin-top: 60px;
+  min-height: calc(100vh - 60px);
+  height: 100%;
+}
+.content-inner-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.content-left,
+.content-right {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid var(--layout-border-gray);
+  border-radius: 3px;
+}
+.content-left {
+  width: calc(100% - 220px);
+  margin-right: 20px;
+}
+.content-left input {
+  border: 1px solid var(--mid-gray);
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+.content-right {
+  height: 100%;
+  width: 220px;
+  padding: 20px;
+}
+.status-display {
+  margin-bottom: 20px;
+}
+.status-value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  width: 80px;
+  border-radius: 32px;
+  border: 1px solid var(--dark-gray);
+  text-align: center;
+}
+@media (max-width: 1024px) {
+  .content-inner-wrapper {
+    flex-direction: column;
+  }
+  .content-left {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .content-right {
+    width: 220px;
+    margin-bottom: 15px;
+  }
+  .content-wrapper {
+    padding: 10px;
+  }
+}
+.radioBtn {
+  width: 3% !important;
+}
+.star {
+  margin: 0 !important;
+  font-size: 15px;
+  color: var(--red);
+}
+.title-input::placeholder {
+  color: var(--mid-gray);
+  font-size: 14px;
+}
+.warning {
+  color: var(--red);
+  font-size: 12px;
+}

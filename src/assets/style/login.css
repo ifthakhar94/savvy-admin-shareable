@@ -1,0 +1,26 @@
+.login-container {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: var(--light-gray);
+}
+.login-form-container {
+  width: min(400px, 80vw);
+  background-color: #fff;
+  padding: 40px 0;
+  margin-top: 2em;
+}
+.login-header {
+  font-size: 24px;
+  line-height: 32px;
+}
+.login-form {
+  margin-top: 40px;
+}
+.login-logo {
+  width: min(362px, 80vw);
+}
+.login-error-text {
+  margin-top: 20px;
+  font-size: 12px;
+  color: var(--red);
+}

@@ -1,0 +1,13 @@
+export const blue = "#129cdb";
+export const white = "#ffffff";
+export const lightDark = "#707070";
+export const dark = "#333333";
+export const red = "#ff0000";
+export const darkGray = "#4d4d4d";
+export const midGray = "#bfbfbf";
+export const lightGray = "#f1f1f1";
+export const yellow = "#ffde55";
+export const black = "#000000";
+export const previewLightGreen = "#58CC2E";
+export const previewGreen = "#0C991F";
+export const layoutBorderGray = "#e5e5e5";

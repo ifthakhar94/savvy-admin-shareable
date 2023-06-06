@@ -1,0 +1,13 @@
+.user-list-data-table-wrapper input::placeholder {
+  color: var(--mid-gray);
+}
+.pagination-nav-bar {
+  margin-top: 30px;
+}
+@media (max-width: 1024px) {
+  .user-list-data-table-header {
+    flex-wrap: wrap;
+    /* display: flex !important;
+    flex-direction: column !important; */
+  }
+}

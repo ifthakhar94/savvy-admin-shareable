@@ -1,0 +1,34 @@
+.special-product-data-table-wrapper {
+  min-height: 80vh;
+}
+.form-check {
+  min-height: 0;
+  padding-left: 1.5em;
+  margin-bottom: 0.125rem;
+}
+.special-product-data-table-wrapper .rdt_TableRow {
+  min-height: 30px !important;
+}
+.form-check input[type="checkbox"]:checked {
+  background-color: var(--blue) !important;
+}
+.form-check-input[type="checkbox"]:indeterminate {
+  border: 1px solid var(--mid-gray) !important;
+  background-color: white !important;
+}
+/* Special Product Preview */
+.special-product-preview-img-container {
+  width: 163px;
+  height: 95px;
+  border-radius: 5px 5px 0 0;
+}
+.special-product-preview-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 5px 5px 0 0;
+}
+.special-product-preview-modal {
+  max-width: 680px;
+}

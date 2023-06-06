@@ -1,0 +1,37 @@
+/* @tailwind base; */
+/* @tailwind components; */
+/* @tailwind utilities; */
+@import "/node_modules/flag-icons/css/flag-icons.min.css";
+@import "./assets/style/color.css";
+@import "./assets/style/layout.css";
+@import "./assets/style/common.css";
+@import "./assets/style/modalCSV.css";
+@import "./assets/style/monthly.css";
+@import "./assets/style/dragndrop.css";
+@import "./assets/style/previewModal.css";
+@import "./assets/style/specialproduct.css";
+@import "./assets/style/english-question/english-question.css";
+@import "./assets/style/reactdatatablestyle.css";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Hiragino Kaku Gothic ProN", "Segoe UI", "Meiryo", "Meiryo",
+    sans-serif;
+  /* transition: all 0.1s ease-in; */
+}
+body {
+  min-height: 100vh;
+}
+img {
+  display: inline;
+}
+.red {
+  color: var(--red);
+}
+a:hover {
+  font-size: inherit;
+}
+.color-login-form-title {
+  color: #030303;
+}
